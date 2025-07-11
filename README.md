@@ -92,7 +92,8 @@ portfolio_vuejs/
 note:plz 1---used xampp and keep my folder (Pro3_portfolio) into htdocs and start (mysql,Apache-server) .
 2----plz Setup Frontend (Vue.js) then open my folder(portfolio) as you download from github then open this folder with visual-studio-code.
  3----copy path(goto terimanl you found path and  you  do copy path only like:(\portfolio)) .
-4---open cmd and type (cd..) then enter this you do continue while you not found like this(C:\>) .when you found this in last like:(C:\>) then finally paste like:((C:\portfolio>))  as you copy done already  from terminal and then enter.
+4---open cmd and type (cd..) then enter this you do continue while you not found like this(C:\>) .
+when you found this in last like:(C:\>) then finally paste like:((C:\portfolio>))  as you copy done already  from terminal and then enter.
 5.....last and finally type( npm run dev)  like:C:\portfolio>npm run dev  .
 6.goto browser type(http://localhost:5173/) you project(portfolio_vuejs) successfully run.
 
