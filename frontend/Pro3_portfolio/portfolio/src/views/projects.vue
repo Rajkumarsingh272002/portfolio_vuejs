@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
-  <div class="container-fluid p-5 cusMainContainer">
+  <div class="container-fluid p-5 cusMainContainer cus_littgap">
     <div class="bg-light-purple">
       <!-- part=1  -->
       <section class="container mb-5 cus_gro">
-        <div class="card-group mt-5 ms-5 cuscardgroup">
+        <div class="card-group mt-5 ms-5 cuscardgroup d-flex">
           <!--first card-->
           <div class="card">
             <img src="/asset/image/1.png" class="card-img-top" alt="..." />
@@ -13,11 +13,10 @@
               <p class="card-text">
                 "To build a web-based system that verifies user email and password from a database
                 during login and allows account creation, login, and password management using
-                (Vue.js3 composition + PHP-APi + axios + vue-router + pinia + bootstrap + javascript
-                + html + css + mysql"). this project is 'CORS( Cross-Origin Resource Sharing)' . We
-                using Rest-Api for backend and using "mysql" for manage database." Built with html,
-                css, javascript, Vue3-composition-APi, Pinia, Vue-router, Axios, vue-bootstrap, PHP
-                API, and MySQL.
+                (Vue.js3 composition + PHP-APi + axios + vue-bootstrap + javascript + html + css +
+                mysql + xampp"). this project is 'CORS( Cross-Origin Resource Sharing)' . We using
+                Rest-Api for backend and using "mysql" for manage database." Built with html, css,
+                javascript, Vue3-composition-APi, Axios, vue-bootstrap, PHP API, and MySQL, xampp."
               </p>
               <div class="card-footer border-success">
                 <p>https://rksingh.infinityfreeapp.com/emailverifyfromdatabase/</p>
@@ -40,8 +39,8 @@
               <div class="card p-1">
                 <h4 class="">Tech Stack</h4>
                 <p class="fw-bold">
-                  html, css, javaScript, Vue3-composition-Api, Pinia, Vue-router, Axios,
-                  vue-bootstrap, PHP API, and MySQL.
+                  html, css, javaScript, Vue3-composition-Api, Pinia, Axios, vue-bootstrap, PHP-API,
+                  and MySQL, xampp.
                 </p>
               </div>
             </div>
@@ -56,8 +55,8 @@
               <p class="card-text">
                 "A full-stack email verification system where users register, receive a tokenized
                 activation email, and their account status is updated in the database upon
-                activation. Built with html, css, javascript, Vue 3, Pinia, VUe-router, Axios,
-                vue-bootstrap, PHP API, and MySQL."
+                activation. Built with html, css, javascript, Vue3-composition-api, Axios,
+                vue-bootstrap, PHP-API, and MySQL, xampp"
               </p>
               <div class="card-footer border-success">
                 <p>https://rksingh.infinityfreeapp.com/emailactivationfromemailaccount/</p>
@@ -80,8 +79,8 @@
               <div class="card p-1">
                 <h4>Tech Stack</h4>
                 <p class="fw-bold">
-                  html, css, javaScript, Vue3-composition-Api, Pinia, Vue-router, Axios,
-                  vue-bootstrap, PHP API, and MySQL.
+                  html, css, javaScript, Vue3-composition-Api, Pinia, Axios, vue-bootstrap, PHP-API,
+                  and MySQL, xampp.
                 </p>
               </div>
             </div>
@@ -104,17 +103,17 @@
               <div class="card-footer border-success">
                 <p>https://responsive-dynamic-header-vuejs.netlify.app/</p>
                 <a href=" https://responsive-dynamic-header-vuejs.netlify.app/" target="_blank"
-                  >vue-auth-email-verify-emailactivationfromemailaccount</a
+                  >Responsive Dynamic Header System using Vue.js (SuccessfulFarming Clone)</a
                 >
               </div>
               <div class="card-footer border-success">
                 <p>
-                  https://github.com/Rajkumarsingh272002/vue-auth-email-verify-emailactivationfromemailaccount.git
+                  https://github.com/Rajkumarsingh272002/Responsive-Dynamic-Header-System-using-Vue.js-SuccessfulFarming-Clone-.git
                 </p>
                 <a
                   href=" https://github.com/Rajkumarsingh272002/Responsive-Dynamic-Header-System-using-Vue.js-SuccessfulFarming-Clone-.git"
                   target="_blank"
-                  >vue-auth-email-verify-emailactivationfromemailaccount</a
+                  >Responsive Dynamic Header System using Vue.js (SuccessfulFarming Clone)</a
                 >
               </div>
               <div class="card p-1">
@@ -126,11 +125,49 @@
         </div>
       </section>
       <!-- part=2 second session start-->
-      <section class="container mb-5 cus_gro cus_gro2">
-        <div class="card-group mt-5 ms-5 cuscardgroup col-md-4 cuscardgroup2">
+      <section class="container mb-5 cus_gro cus_gro2 cus_gro3">
+        <div class="card-group mt-5 ms-5 cuscardgroup cuscardgroup2">
           <!--first card-->
           <div class="card">
-            <img src="/asset/image/1.png" class="card-img-top" alt="..." />
+            <img src="/asset/image/4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">📝 Project Title: portfolio_vue.js</h5>
+              <p class="card-text">
+                A personal **Portfolio Website** built using modern web technologies to showcase
+                About, skills, projects, and contact form — specifically crafted for **students and
+                freshers** to impress **recruiters**.
+              </p>
+              <p>
+                **Project Aim**: To build a responsive, interactive, and dynamic personal portfolio
+                that can be shared with HRs, recruiters, and companies to showcase technical & soft
+                skills, academic projects, and contact information. ---
+              </p>
+              <div class="card-footer border-success">
+                <p>https://rksingh.infinityfreeapp.com/fresherPortfolio/</p>
+                <a href=" https://rksingh.infinityfreeapp.com/fresherPortfolio/" target="_blank">
+                  Project Title: portfolio_vue.js</a
+                >
+              </div>
+              <div class="card-footer border-success">
+                <p>https://github.com/Rajkumarsingh272002/portfolio_vuejs.git</p>
+                <a
+                  href=" https://github.com/Rajkumarsingh272002/portfolio_vuejs.git"
+                  target="_blank"
+                  >Project Title: portfolio_vue.js</a
+                >
+              </div>
+              <div class="card p-1">
+                <h1 class="fs-4">Tech Stack</h1>
+                <p class="fw-bold">
+                  html, css, javaScript, Vue3-composition-Api, vue-router, vue-bootstrap, axios,
+                  php-api, mysql, xampp
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--second card-->
+          <div class="card custodo">
+            <img src="/asset/image/3.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">📝 Project Title: Todo_App-using-vue.js</h5>
               <p class="card-text">
@@ -142,8 +179,8 @@
               </p>
               <div class="card-footer border-success">
                 <p>https://todoapp-using-vuejs.netlify.app/</p>
-                <a href=" https://todoapp-using-vuejs.netlify.app/" target="_blank"
-                  >📝 Project Title: Todo_App-using-vue.js</a
+                <a href=" https://todoapp-using-vuejs.netlify.app/" target="_blank">
+                  Project Title: Todo_App-using-vue.js</a
                 >
               </div>
               <div class="card-footer border-success">
@@ -151,7 +188,7 @@
                 <a
                   href=" https://github.com/Rajkumarsingh272002/Todo_App-using-vue.js.git"
                   target="_blank"
-                  >vue-auth-email-verify-emailactivationfromemailaccount</a
+                  >Project Title: Todo_App-using-vue.js</a
                 >
               </div>
               <div class="card p-1">
@@ -174,7 +211,7 @@
   background-color: #f7edff;
   margin-top: -48px;
   padding-top: 18px;
-  height: 2150px;
+  height: 1950px;
 }
 .cus_gro {
   margin-left: 13px;
@@ -216,11 +253,7 @@
     margin-left: -2px;
   }
 }
-@media (min-width: 992px) and (max-width: 1070px) {
-  .cus_gro {
-    margin-left: -2px;
-  }
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .cus_gro {
     margin-left: -2px;
@@ -242,22 +275,22 @@
 }
 @media (min-width: 1211px) and (max-width: 1400px) {
   .bg-light-purple {
-    height: 2210px;
+    height: 2010px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1211px) {
   .bg-light-purple {
-    height: 2225px;
+    height: 2025px;
   }
 }
 @media (min-width: 1026px) and (max-width: 1200px) {
   .bg-light-purple {
-    height: 2350px;
+    height: 2150px;
   }
 }
 @media (min-width: 993px) and (max-width: 1026px) {
   .bg-light-purple {
-    height: 2410px;
+    height: 2210px;
   }
 }
 @media (min-width: 797px) and (max-width: 992px) {
@@ -272,66 +305,170 @@
     padding-bottom: 1px;
   }
 }
-@media (min-width: 633px) and (max-width: 767.98px) {
+@media (min-width: 700px) and (max-width: 767.98px) {
   .bg-light-purple {
-    height: auto;
-
+    height: 4280px;
     padding-bottom: 1px;
   }
-}
-@media (min-width: 622px) and (max-width: 633px) {
-  .bg-light-purple {
-    height: 3135px;
+  .cus_gro2 {
+    margin-top: 80px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card {
+    margin: auto 0;
+    max-width: 100%;
   }
 }
-@media (min-width: 576px) and (max-width: 633px) {
+@media (min-width: 633px) and (max-width: 700px) {
   .bg-light-purple {
-    min-height: 3265px;
+    height: 4440px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 50px;
+  }
+  .cus_gro2 {
+    margin-top: 80px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
   }
 }
-@media (min-width: 591px) and (max-width: 614px) {
+@media (min-width: 622px) and (max-width: 632.98px) {
   .bg-light-purple {
-    height: auto;
+    height: 4480px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 50px;
+  }
+  .cus_gro2 {
+    margin-top: 80px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
+  }
+}
+@media (min-width: 598px) and (max-width: 621.98px) {
+  .bg-light-purple {
+    /*height: auto;*/
     /*height: 3350px;*/
-
+    height: 4580px;
     padding-bottom: 1px;
   }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 50px;
+  }
+  .cus_gro2 {
+    margin-top: 95px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
+  }
 }
-@media (min-width: 576px) and (max-width: 591px) {
+@media (min-width: 586px) and (max-width: 597.98px) {
+  .bg-light-purple {
+    /*height: auto;*/
+    /*height: 3350px;*/
+    height: 4660px;
+    padding-bottom: 1px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 50px;
+  }
+  .cus_gro2 {
+    margin-top: 95px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
+  }
+}
+@media (min-width: 577px) and (max-width: 586px) {
   .bg-light-purple {
     /* height: 3428px;*/
-    height: auto;
+    /*height: auto;*/
+    height: 4680px;
     padding-bottom: 1px;
   }
-}
-@media (min-width: 546px) and (max-width: 575.98px) {
-  .bg-light-purple {
-    height: 3970px;
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 50px;
+  }
+  .cus_gro2 {
+    margin-top: 95px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
   }
 }
-@media (min-width: 533px) and (max-width: 545.98px) {
+@media (min-width: 570px) and (max-width: 576.98px) {
   .bg-light-purple {
-    height: 3982px;
+    /* height: 3428px;*/
+    /*height: auto;*/
+    height: 4450px;
+    padding-bottom: 1px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+
+    width: 410px;
+    margin-left: 10px;
+  }
+  .cus_gro2 {
+    margin-top: 90px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
   }
 }
-@media (min-width: 525px) and (max-width: 532.99px) {
+@media (min-width: 481px) and (max-width: 569.98px) {
   .bg-light-purple {
-    height: 4055px;
+    /* height: 3428px;*/
+    /*height: auto;*/
+    height: 4680px;
+    padding-bottom: 1px;
+  }
+  .cuscardgroup {
+    flex-direction: column;
+    gap: 25px;
+
+    width: 350px;
+  }
+  .cus_gro3 {
+    margin-top: 95px;
+  }
+  .cus_gro {
+    margin-left: -45px;
+  }
+  .card {
+    margin: auto 0;
+    max-width: 100%;
+  }
+  .custodo {
+    margin-top: 35px;
   }
 }
-@media (min-width: 519px) and (max-width: 524.99px) {
-  .bg-light-purple {
-    height: 4100px;
-  }
-}
-@media (min-width: 516px) and (max-width: 518.99px) {
-  .bg-light-purple {
-    height: 4100px;
-  }
-}
-@media (min-width: 481px) and (max-width: 515.99px) {
-  .bg-light-purple {
-    height: 4240px;
+@media (min-width: 768px) and (max-width: 990.98px) {
+  .cus_littgap {
+    margin-top: -48px;
   }
 }
 </style>

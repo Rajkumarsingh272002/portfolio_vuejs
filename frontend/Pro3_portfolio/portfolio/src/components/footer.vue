@@ -71,7 +71,7 @@ const githuburl = ref('https://github.com/Rajkumarsingh272002') //this we used i
                       class="fw-bolder"
                       link="#"
                       alt=""
-                      >About Us</router-link
+                      >Contact Us</router-link
                     >
                   </li>
                 </ul>

@@ -1,5 +1,8 @@
 <script setup>
-window.addEventListener('load', () => {
+import { onMounted } from 'vue'
+
+//window.addEventListener('load', () => {
+onMounted(() =>
   document.querySelectorAll('.bar-fill').forEach((bar) => {
     const target = parseInt(bar.getAttribute('data-fill'))
     let count = 0
@@ -15,11 +18,11 @@ window.addEventListener('load', () => {
         bar.textContent = width + '%'
       }
     }, 20) // control animation speed
-  })
-})
+  }),
+)
 </script>
 <template>
-  <div class="container-fluid p-5">
+  <div class="container-fluid p-5 cus_littgap">
     <div class="bg-light-purple">
       <div class="d-flex pt-5">
         <!--Row1-->
@@ -33,21 +36,23 @@ window.addEventListener('load', () => {
             </div>
             <div class="">
               <p><strong>Languages: </strong>HTML, CSS, JavaScript, PHP, MySQL</p>
-              <p><strong>Framework: </strong> Vue.js, Bootstrap, Pinia, Vue Router</p>
+              <p>
+                <strong>Framework: </strong> Vue.js3-composition-Api, Bootstrap, Pinia, Vue Router
+              </p>
               <p><strong>Tools & Platforms: </strong> Git, GitHub, Axios, XAMPP, VS Code, WAMP</p>
             </div>
           </div>
           <!--Frontend Skills:-->
           <div class="col-12 cus_SkillCategory">
-            <div>
+            <div class="">
               <h1 class="fs-4 fw-bold mt-5">Skills Categories</h1>
               <hr />
             </div>
             <div>
               <strong>🖥️Frontend Skills:</strong>
               <p class="mt-2">
-                <span style="color: red">&#8594;</span>HTML, CSS, JavaScript, Vue.js, Bootstrap,
-                Pinia, Vue Router
+                <span style="color: red">&#8594;</span>HTML, CSS, JavaScript, Bootstrap,
+                Vue.js3-composition-Api, Pinia, Vue Router
               </p>
 
               <strong class="">🛠Backend: </strong>
@@ -324,7 +329,7 @@ hr {
   transition: transform 0.3s ease;
 }
 .cus_SkillCategory {
-  margin-top: -470px;
+  margin-top: -430px;
 }
 .cus_cardbg {
   background-color: #eee;
@@ -769,6 +774,11 @@ hr {
   .cus_col1 {
     min-width: 143px;
     margin-left: -19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990.98px) {
+  .cus_littgap {
+    margin-top: 26px;
   }
 }
 </style>

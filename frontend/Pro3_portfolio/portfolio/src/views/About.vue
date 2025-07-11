@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div class="container-fluid p-5">
-    <div class="bg-light-purple">
+    <div class="bg-light-purple cus_littgap">
       <section class="cus_shaw_text row container-fluid justify-content-center g-0 p-5">
         <div class="col-12 text-center ms-5 cus_mycolljour">
           <h1 class="mb-4">About Me</h1>
@@ -15,8 +15,8 @@
               enjoy building user-friendly interfaces.
             </li>
             <li>
-              ⚙️ I work with <strong>Vue.js</strong> for frontend development, and use
-              <strong>Vue Router</strong> and <strong>Pinia</strong> for routing and state
+              ⚙️ I work with <strong>Vue.js3-composition-Api</strong> for frontend development, and
+              use <strong>Vue Router</strong> and <strong>Pinia</strong> for routing and state
               management.
             </li>
             <li>
@@ -67,8 +67,8 @@
                   <strong>Government Polytechnic, Lucknow</strong>, which I will complete by
                   <strong>February 2025</strong>. This course has sharpened my skills in modern web
                   technologies like <strong>HTML, CSS, JavaScript, Bootstrap</strong>, and
-                  <strong>Vue.js</strong>. I also gained practical experience in backend
-                  technologies like <strong>PHP</strong> and <strong>MySQL</strong>.
+                  <strong>Vue.js3-composition-Api</strong>. I also gained practical experience in
+                  backend technologies like <strong>PHP</strong> and <strong>MySQL</strong>.
                 </p>
                 <p>
                   During this journey, I’ve also worked on using tools like <strong>Pinia</strong>,
@@ -114,6 +114,11 @@
   }
   .cus_li2 {
     padding: 3px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990.98px) {
+  .cus_littgap {
+    margin-top: -69px;
   }
 }
 </style>

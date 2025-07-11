@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+const githuburl = ref('https://github.com/Rajkumarsingh272002') //this we used into bootom in <li>-gitlink
+const linkedurl = ref('https://www.linkedin.com/in/rksingh-fullstackwebdeveloper') //this is used middle
+</script>
 <template>
   <div class="container-fluid p-5">
     <div class="bg-light-purple">
@@ -15,9 +19,23 @@
         <h1 class="text-center text-black">
           Hi, I'm <span class="text-primary">Raj Kumar Singh</span>
         </h1>
-        <h1 class="text-muted text-center fs-4 mt-2">Aspiring Frontend Web Developer</h1>
+        <h1 class="text-muted text-center fs-4 mt-2">Aspiring FullStack Web-Developer</h1>
         <!-- 3. Call-to-Action Buttons -->
         <div class="d-flex gap-3 justify-content-center">
+          <!--linked in-->
+          <router-link
+            class="p-3 fs-6 mt-3 mb-2 badge rounded-pill text-bg-primary"
+            :href="linkedurl"
+            target="_blank"
+            >linkedin</router-link
+          >
+          <!--github in-->
+          <router-link
+            class="p-3 fs-6 mt-3 mb-2 badge rounded-pill text-bg-primary"
+            :href="githuburl"
+            target="_blank"
+            >GitHub</router-link
+          >
           <router-link
             to="/project"
             class="p-3 fs-6 mt-3 mb-2 badge rounded-pill text-bg-primary"
@@ -53,22 +71,22 @@
 
       <!-- 5. Social Icons -->
       <section class="container text-center mb-5">
-        <a href="https://github.com/yourusername" target="_blank" class="me-3">
+        <a :href="githuburl" target="_blank" class="me-3">
           <i class="bi bi-github" style="font-size: 2rem"></i>
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" class="me-3">
+        <a link="" target="_blank" class="me-3">
           <i class="bi bi-linkedin" style="font-size: 2rem"></i>
         </a>
-        <a href="https://x.com/yourusername" target="_blank" class="me-3">
+        <a link="" target="_blank" class="me-3">
           <i class="bi bi-twitter" style="font-size: 2rem"></i>
         </a>
-        <a href="https://x.com/yourusername" target="_blank" class="me-3">
+        <a link="" target="_blank" class="me-3">
           <i class="bi bi-instagram" style="font-size: 2rem"></i>
         </a>
-        <a href="https://x.com/yourusername" target="_blank" class="me-3">
+        <a link="" target="_blank" class="me-3">
           <i class="bi bi-facebook" style="font-size: 2rem"></i>
         </a>
-        <a href="https://x.com/yourusername" target="_blank" class="me-3">
+        <a link="" target="_blank" class="me-3">
           <i class="bi bi-youtube" style="font-size: 2rem"></i>
         </a>
       </section>
@@ -81,7 +99,7 @@
           <span class="badge text-bg-dark">CSS</span>
           <span class="badge text-bg-dark">JavaScript</span>
           <span class="badge text-bg-dark">Bootstrap</span>
-          <span class="badge text-bg-dark">Vue.js</span>
+          <span class="badge text-bg-dark">Vue.js3-Composition-Api</span>
 
           <span class="badge text-bg-dark">Pinia</span>
           <span class="badge text-bg-dark">Vue-Router</span>
@@ -96,7 +114,11 @@
       </section>
       <!--download Resume-->
       <section class="container text-center">
-        <a href="/asset/image/fake CV.pdf" alt="resume" class="mb-5 btn btn-primary"
+        <a
+          href="/asset/image/RajKumar_Singh_resume2.pdf"
+          target="_blank"
+          alt="resume"
+          class="mb-5 btn btn-primary"
           >Download Resume</a
         >
       </section>

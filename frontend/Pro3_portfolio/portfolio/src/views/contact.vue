@@ -54,7 +54,7 @@ const [mobile, mobileAttrs] = defineField('mobile')
 import * as yup from 'yup'
 </script>
 <template>
-  <div class="container-fluid p-5 cus_formGap">
+  <div class="container-fluid p-5 cus_formGap cus_littgap">
     <div class="bg-light-purple">
       <div class="row g-3 justify-content-center m-2">
         <div class="col-6 border border-3 border-secondary m-2">
@@ -165,6 +165,11 @@ import * as yup from 'yup'
     width: 350px;
     padding: 5px;
     padding-top: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990.98px) {
+  .cus_littgap {
+    margin-top: -1px;
   }
 }
 </style>
