@@ -136,10 +136,6 @@ require 'emailproject/PHPMailer/SMTP.php';
 require 'emailproject/PHPMailer/Exception.php';
 
 
-$mail = new PHPMailer(true);
-
-
-
 
 $mail = new PHPMailer(true);
 try {
@@ -174,11 +170,6 @@ if(count(bigError)==0){
 }else{
  echo json_encode(['sorryForResponse'=>'sorryforResponse']);
 }
-
-
-
-
-
 
 }
 ?>

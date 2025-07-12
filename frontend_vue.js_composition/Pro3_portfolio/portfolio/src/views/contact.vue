@@ -15,17 +15,6 @@ const { errors, values, defineField, handleSubmit } = useForm({
   }),
 })
 
-//rest
-function resetFields() {
-  full_name.value = ''
-  email.value = ''
-  message.value = ''
-  mobile.value = ''
-}
-
-//loading
-const isLoading = ref(false)
-
 import { contactProcess } from '@/composable_messageProcess/contactProcess'
 
 // ✅ Step 3: Call contactProcess inside submitForm handler
@@ -41,7 +30,6 @@ const onSubmit = handleSubmit(() => {
     mobile.value,
     bigdata,
     bigerr2, //ye jayega contact.vue me tab waha se ref banega. yaha par onSubmit() ke andar he islye ye globally ref nahi bana is reason se {{bigData}}-contact.vue-me (bigData) not instace crate
-    resetFields, //rest
   )
 
   contactMessage() // ⬅️ Trigger the function with updated values
@@ -52,6 +40,16 @@ const [email, emailAttrs] = defineField('email')
 const [message, messageAttrs] = defineField('message')
 const [mobile, mobileAttrs] = defineField('mobile')
 import * as yup from 'yup'
+
+//cleaer message
+function clearMessage() {
+  bigdata.value = ''
+  bigerr2.value = ''
+  full_name.value = ''
+  email.value = ''
+  message.value = ''
+  mobile.value = ''
+}
 </script>
 <template>
   <div class="container-fluid p-5 cus_formGap cus_littgap">
@@ -59,6 +57,7 @@ import * as yup from 'yup'
       <div class="row g-3 justify-content-center m-2">
         <div class="col-6 border border-3 border-secondary m-2">
           <div>
+            <!--  <h1 class="fs-4 text-center mb-5 text-success" v-if="bigdata">{{ bigdata[4] }}</h1>-->
             <h1 class="fs-4 text-center mb-5 text-success" v-if="bigdata">{{ bigdata[4] }}</h1>
             <h1 class="fs-4 text-center mb-5 text-danger" v-else-if="bigerr2[0]">
               {{ bigerr2[0] }}
@@ -117,16 +116,15 @@ import * as yup from 'yup'
               <span v-if="errors.mobile" class="red_alert">{{ errors.mobile }}</span>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary" :disabled="isLoading">
-                <span v-if="isLoading">
-                  <span
-                    class="spinner-border spinner-border-sm me-2"
-                    role="status"
-                    aria-hidden="true"
-                  ></span>
-                  Sending...
-                </span>
-                <span v-else> Submit </span>
+              <button type="submit" class="btn btn-primary">
+                <span> Submit </span>
+              </button>
+              &nbsp;&nbsp;&nbsp;<button
+                type="button"
+                @click="clearMessage"
+                class="btn btn-primary cus_messageClear"
+              >
+                Message clear
               </button>
             </div>
           </form>
@@ -171,5 +169,7 @@ import * as yup from 'yup'
   .cus_littgap {
     margin-top: -1px;
   }
+}
+.cus_messageClear {
 }
 </style>

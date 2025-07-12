@@ -9,7 +9,7 @@ const linkedurl = ref('https://www.linkedin.com/in/rksingh-fullstackwebdeveloper
       <!-- 1. Hero Section + 2. Profile Photo -->
       <section class="container">
         <!--image fresher-->
-        <div class="imge d-flex justify-content-center">
+        <div class="imge justify-content-center d-flex">
           <img
             src="C:\Users\Rajkumar\Desktop\portfolio_folder\image_coding_atudent.jpg"
             class="rounded-4"
@@ -21,20 +21,20 @@ const linkedurl = ref('https://www.linkedin.com/in/rksingh-fullstackwebdeveloper
         </h1>
         <h1 class="text-muted text-center fs-4 mt-2">Aspiring FullStack Web-Developer</h1>
         <!-- 3. Call-to-Action Buttons -->
-        <div class="d-flex gap-3 justify-content-center">
+        <div class="gap-3 justify-content-center d-flex cus_mini">
           <!--linked in-->
-          <router-link
+          <a
             class="p-3 fs-6 mt-3 mb-2 badge rounded-pill text-bg-primary"
             :href="linkedurl"
             target="_blank"
-            >linkedin</router-link
+            >linkedin</a
           >
           <!--github in-->
-          <router-link
+          <a
             class="p-3 fs-6 mt-3 mb-2 badge rounded-pill text-bg-primary"
             :href="githuburl"
             target="_blank"
-            >GitHub</router-link
+            >GitHub</a
           >
           <router-link
             to="/project"
@@ -151,6 +151,12 @@ const linkedurl = ref('https://www.linkedin.com/in/rksingh-fullstackwebdeveloper
 @media (min-width: 991px) {
   .container-fluid {
     margin-top: 1px;
+    /* background-color: aqua; we chech here how this work on diff-2 size on screen*/
+  }
+}
+@media (min-width: 481px) and (max-width: 609px) {
+  .cus_mini {
+    flex-direction: column;
     /* background-color: aqua; we chech here how this work on diff-2 size on screen*/
   }
 }

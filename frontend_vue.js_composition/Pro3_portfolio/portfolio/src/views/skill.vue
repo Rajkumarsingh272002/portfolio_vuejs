@@ -43,7 +43,7 @@ onMounted(() =>
             </div>
           </div>
           <!--Frontend Skills:-->
-          <div class="col-12 cus_SkillCategory">
+          <div class="col-12 cus_SkillCategory cus_little">
             <div class="">
               <h1 class="fs-4 fw-bold mt-5">Skills Categories</h1>
               <hr />
@@ -534,7 +534,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -950px;
+    margin-top: -910px;
   }
 }
 @media (min-width: 655px) and (max-width: 767.98px) {
@@ -558,7 +558,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -930px;
+    margin-top: -900px;
   }
 }
 @media (min-width: 615px) and (max-width: 654.98px) {
@@ -582,7 +582,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -860px;
+    margin-top: -780px;
   }
 }
 @media (min-width: 590px) and (max-width: 614.98px) {
@@ -607,10 +607,10 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -820px;
+    margin-top: -730px;
   }
 }
-@media (min-width: 562px) and (max-width: 589.98px) {
+@media (min-width: 563px) and (max-width: 589.98px) {
   .cust_row2 {
     width: 50%;
     margin-right: 6px;
@@ -632,7 +632,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -830px;
+    margin-top: -790px;
   }
 }
 @media (min-width: 550px) and (max-width: 561.98px) {
@@ -657,7 +657,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -780px;
+    margin-top: -740px;
   }
 }
 @media (min-width: 538px) and (max-width: 549.98px) {
@@ -682,7 +682,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -790px;
+    margin-top: -670px;
   }
 }
 @media (min-width: 530px) and (max-width: 537.98px) {
@@ -707,7 +707,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -790px;
+    margin-top: -670px;
   }
 }
 @media (min-width: 521px) and (max-width: 529.98px) {
@@ -732,7 +732,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -630px;
+    margin-top: -590px;
   }
 }
 @media (min-width: 499px) and (max-width: 520.98px) {
@@ -757,7 +757,7 @@ hr {
     width: 50%;
   }
   .cus_SkillCategory {
-    margin-top: -620px;
+    margin-top: -530px;
   }
 }
 @media (min-width: 481px) and (max-width: 498.98px) {
@@ -779,6 +779,20 @@ hr {
 @media (min-width: 768px) and (max-width: 990.98px) {
   .cus_littgap {
     margin-top: 26px;
+  }
+}
+@media (min-width: 655px) and (max-width: 699.98px) {
+  .us_little {
+    margin-top: -980px;
+  }
+}
+@media (min-width: 562px) and (max-width: 562.98px) {
+  .cus_row1 {
+    margin-left: 6px;
+    width: 50%;
+  }
+  .cus_SkillCategory {
+    margin-top: -920px;
   }
 }
 </style>
