@@ -148,9 +148,9 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // ✅ Required!
     $mail->Port       = 587;
 
-    $mail->setFrom('yourmail@gmail.com', 'OTP System');
-    $mail->addAddress($email);
-    $mail->addReplyTo('yourmail@gmail.com', 'OTP System');
+    $mail->setFrom('yourmail@gmail.com');// <-- your Gmail ID
+    $mail->addAddress('yourmail@gmail.com');// <-- your Gmail ID
+    $mail->addReplyTo('yourmail@gmail.com');// <-- your Gmail ID
 
     $mail->isHTML(true);
     $mail->Subject = "contact message";
